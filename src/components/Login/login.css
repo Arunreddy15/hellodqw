@@ -1,0 +1,43 @@
+.loginpage{
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/imagelinks/image/upload/v1667913311/19366_dsigm8.jpg");
+    background-size: cover;
+}
+.img-con{
+    margin: -20px;
+    overflow: hidden;
+    height: 500px;
+    width: 450px;
+}
+img{
+    height: 450px;
+}
+form{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div input{
+    margin-top: 5px;
+    width: 250px;
+border-radius: 4px;
+    height: 25px;
+    border: 1.5px solid grey;
+}
+.log_submit{
+width:  100px;
+color: white;
+background-color: rgb(58, 103, 215);
+border: none;
+padding: 3px 0;
+border-radius: 4px;
+margin-top: 20px;
+}

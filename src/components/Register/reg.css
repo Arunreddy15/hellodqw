@@ -1,0 +1,44 @@
+.App {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.form-container {
+    /* display: flex;
+flex-direction: column; */
+}
+
+.form-container div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container div label {
+    margin-bottom: 5px;
+}
+
+.form-container div input {
+    width: 250px;
+}
+
+.reg_sub {
+    margin-top: 20px;
+    width: 100px;
+    color: white;
+        background-color: rgb(58, 103, 215);
+        border:1px solid transparent;
+        border-radius: 4px;
+    padding: 3px 0;
+}
+.reg_sub:hover{
+    background-color: red;
+}
+details {
+    transition: 1s;
+}
